@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> matches snapshot 1`] = `
+exports[`<LanguageSelect /> matches snapshot 1`] = `
 <div
   className="sc-bdnxRM ILTyD"
 >

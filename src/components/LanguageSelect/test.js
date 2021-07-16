@@ -13,7 +13,7 @@
      cleanup();
  });
  
- describe('<Button />', () => {
+ describe('<LanguageSelect />', () => {
      it('renders the LanguageSelect component successfully without crashing', () => {
          render(<LanguageSelect langType={SRC_LANG} langOptions={srcLangOptions} />);
      });

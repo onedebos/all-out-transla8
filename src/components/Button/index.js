@@ -9,7 +9,7 @@ export default function Button({ loading = false }) {
 }
 
 const ButtonStyles = styled.button`
-	width: 300px;
+	width: 150px;
 	background-color: ${(props) => (props.loading ? 'rgb(66, 133, 244)' : '#ddd')};
 	color:${(props) => (props.loading ? '#fff' : '#000')};
 	padding: 10px 0;

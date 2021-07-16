@@ -2,7 +2,7 @@
 
 exports[`<Button /> matches snapshot 1`] = `
 <button
-  className="sc-bdnxRM knFvJX"
+  className="sc-bdnxRM dcoXTg"
   data-testid="translate"
   loading={0}
 >
