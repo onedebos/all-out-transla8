@@ -4,7 +4,7 @@ This is a react app that allows users translate words from English into over 20 
 
 ### Live version
 
-[See it](https://all-out-transla8.vercel.com)
+[Live link](https://all-out-transla8.netlify.com)
 
 ## Getting Started
 
