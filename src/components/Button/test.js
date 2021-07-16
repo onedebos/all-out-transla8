@@ -4,7 +4,7 @@
 import { render, screen, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import renderer from 'react-test-renderer';
-import Button from './Button';
+import Button from './';
 
 afterEach(() => {
 	cleanup();

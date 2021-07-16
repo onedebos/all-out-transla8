@@ -7,4 +7,8 @@ export default function Container({ children }) {
 const ContainerStyles = styled.div`
 	max-width: 80%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 80vh;
 `;
