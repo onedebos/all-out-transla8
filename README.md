@@ -36,7 +36,7 @@ NEXT_PUBLIC_AUTH_KEY=your_deepl_auth_key
 
 ### Automated Tests
 
-- To run the automated tests scripts, run the command `yarn test`
+- To run the automated test scripts, run the command `yarn test`.
 
 ## Authors
 
