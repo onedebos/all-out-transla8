@@ -2,20 +2,11 @@ import LanguageSelect from '../../components/LanguageSelect';
 import constants from './constants';
 import styled from 'styled-components';
 import { useTranslatorSlice } from '../../utils/slices/translator/useTranslatorSlice';
-import { useEffect } from 'react';
 
 export default function LanguagesSelector() {
 	const { srcLangOptions, targetLangOptions, SRC_LANG, TRGT_LANG } = constants;
 
-	const { dispatchSetLangCode, dispatchSetTrgtLangCode } = useTranslatorSlice();
-
-	useEffect(() => {
-		let mounted = true;
-
-		if (mounted) dispatchSetLangCode('EN-GB');
-
-		return () => (mounted = false);
-	}, []);
+	const { dispatchSetTrgtLangCode } = useTranslatorSlice();
 
 	return (
 		<Wrapper>

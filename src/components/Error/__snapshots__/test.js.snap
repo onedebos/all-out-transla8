@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> matches snapshot 1`] = `
+<p
+  className="Error__ErrorStyles-sc-nms42m-0 bMSNJU"
+  data-testid="error-msg"
+>
+  Enter a word to translate...
+</p>
+`;

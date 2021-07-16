@@ -9,7 +9,7 @@ const translatorSlice = createSlice({
 		translation: '',
 		srcText: '',
 		srcLangCode: '',
-		targetLangCode: '',
+		targetLangCode: 'BG',
 	},
 	reducers: {
 		setError: (state, { payload }) => {

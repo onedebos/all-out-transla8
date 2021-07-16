@@ -1,15 +1,14 @@
 import Button from '../src/components/Button';
 import Container from '../src/components/Container/Container';
 import LanguagesSelector from '../src/container/LanguagesSelector';
-import TextAreas from '../src/container/TextAreas';
+import Translator from '../src/container/Translator';
 
 export default function Home() {
 
 	return (
 		<Container>
 			<LanguagesSelector />
-			<TextAreas />
-			<Button />
+			<Translator />
 		</Container>
 	);
 }

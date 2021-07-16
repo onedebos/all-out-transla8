@@ -7,13 +7,15 @@
  import LanguageSelect from './';
  import constants from '../../container/LanguagesSelector/constants'
 
- const {srcLangOptions, SRC_LANG,  TRGT_LANG, targetLangOptions} = constants
  
  afterEach(() => {
      cleanup();
  });
  
  describe('<LanguageSelect />', () => {
+
+    const {srcLangOptions, SRC_LANG,  TRGT_LANG, targetLangOptions} = constants
+    
      it('renders the LanguageSelect component successfully without crashing', () => {
          render(<LanguageSelect langType={SRC_LANG} langOptions={srcLangOptions} />);
      });

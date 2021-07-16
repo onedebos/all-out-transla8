@@ -1,8 +1,8 @@
 export default {
 	post: async (text, targetLangCode) => {
 		const data = {
-			auth_key: process.env.AUTH_KEY,
-			text: text,
+			auth_key: process.env.NEXT_PUBLIC_AUTH_KEY,
+			text,
 			target_lang: targetLangCode,
 		};
 

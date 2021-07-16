@@ -2,165 +2,165 @@
 
 exports[`<LanguageSelect /> matches snapshot 1`] = `
 <div
-  className="sc-bdnxRM ILTyD"
+  className="LanguageSelect__SelectWrapper-sc-1umrqq7-0 iZfAxW"
 >
   <select
-    className="sc-gtsrHT bcvQDV"
+    className="LanguageSelect__LanguageSelectStyle-sc-1umrqq7-1 nRspY"
     data-testid="lang-options"
     name="Target Language"
   >
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="BG"
     >
       Bulgarian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="CS"
     >
       Czech
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="DA"
     >
       Danish
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="DE"
     >
       German
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="EL"
     >
       Greek
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="EN-GB"
     >
       English (British)
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="EN-US"
     >
       English (American)
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="ES"
     >
       Spanish
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="ET"
     >
       Estonian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="FI"
     >
       Finnish
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="FR"
     >
       French
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="HU"
     >
       Hungarian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="IT"
     >
       Italian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="JA"
     >
       Japanese
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="LT"
     >
       Lithuanian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="LV"
     >
       Latvian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="NL"
     >
       Dutch
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="PL"
     >
       Polish
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="PT-PT"
     >
       Portuguese
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="PT-BR"
     >
       Portuguese (Brazilian)
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="RO"
     >
       Romanian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="RU"
     >
       Russian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="SK"
     >
       Slovak
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="SL"
     >
       Slovenian
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="SV"
     >
       Swedish
     </option>
     <option
-      className="sc-dlnjwi"
+      className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
       value="ZH"
     >
       Chinese
