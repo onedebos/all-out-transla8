@@ -48,7 +48,7 @@ export const getTranslation = (srcText, targetLangCode) => {
 
 		try {
 			const response = await translatorAPI.post(srcText, targetLangCode);
-			setLoading(false);
+			dispatch(setLoading(false));
 			dispatch(setTranslation(response.translations[0].text));
 		} catch (error) {
 			console.log(error);

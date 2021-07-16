@@ -6,7 +6,7 @@ import Error from '../../components/Error';
 import constants from './constants';
 
 export default function Translator() {
-	const { dispatchSetSrcTxt, srcText, translation, dispatchGetTranslation, targetLangCode, error, dispatchSetError } =
+	const { dispatchSetSrcTxt, srcText, translation, dispatchGetTranslation, targetLangCode, error, dispatchSetError,loading } =
 		useTranslatorSlice();
 	const { NO_SRC_TEXT_ERR, NO_TRGT_LANG_ERR } = constants;
 
@@ -25,7 +25,7 @@ export default function Translator() {
 			</TextAreasWrapper>
 			<Error error={error && error} />
 			<HorizontalLine />
-			<Button onClick={getTranslation} />
+			<Button loading={loading} onClick={getTranslation} />
 		</TextAreaContainer>
 	);
 }
