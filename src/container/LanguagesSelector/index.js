@@ -7,12 +7,13 @@ import { useEffect } from 'react';
 export default function LanguagesSelector() {
 	const { srcLangOptions, targetLangOptions, SRC_LANG, TRGT_LANG } = constants;
 
-	const { dispatchSetLangCode, dispatchSetTrgtLangCode } = useTranslatorSlice();
+	const { dispatchSetLangCode, dispatchSetTrgtLangCode, dispatchGetTranslation } = useTranslatorSlice();
 
 	useEffect(() => {
 		let mounted = true;
 
 		if (mounted) dispatchSetLangCode('EN-GB');
+		dispatchGetTranslation()
 
 		return () => (mounted = false);
 	}, []);

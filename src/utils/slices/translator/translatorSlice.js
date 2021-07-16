@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { translatorAPI } from './translatorAPI';
+import  translatorAPI  from './translatorAPI';
 
 const translatorSlice = createSlice({
 	name: 'translator',
@@ -46,11 +46,15 @@ export const getTranslation = () => {
 		dispatch(setError(null));
 
 		try {
+
+            const response =  await translatorAPI.post('Hello, world', 'DE')
+            console.log(response)
+
+
 		} catch (error) {
 			console.log(error);
 			console.log(error.message);
 			dispatch(setError(true));
-			dispatch(setMessage('Something went wrong while trying to fetch the translator information.'));
 			dispatch(setLoading(false));
 		}
 	};
