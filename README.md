@@ -32,11 +32,7 @@ yarn install
 NEXT_PUBLIC_AUTH_KEY=your_deepl_auth_key
 ```
 
-4. Navigate into the project's root directory in your terminal and run the command `yarn dev`. The app should start up on `localhost:3000`.
-
-```
-yarn dev
-```
+4. Navigate into the project's root directory in your terminal and run the command `yarn dev`. Navigate to `localhost:3000` in your browser to view and run the app.
 
 ### Automated Tests
 
