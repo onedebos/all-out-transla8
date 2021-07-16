@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-export default function LanguageSelect({ langType, langOptions }) {
+export default function LanguageSelect({ langType, langOptions, onChange }) {
 	return (
 		<SelectWrapper>
-			<LanguageSelectStyle name={langType} data-testid="lang-options">
+			<LanguageSelectStyle name={langType} data-testid="lang-options" onChange={onChange}>
 				{langOptions.map((srcLang, index) => (
 					<LangStyleOption key={index} value={srcLang.langCode}>
 						{srcLang.lang}

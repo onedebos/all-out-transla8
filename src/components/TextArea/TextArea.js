@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export default function TextArea({ isTarget, translation }) {
+export default function TextArea({ isTarget, translation, onChange }) {
 	return (
 		<TextAreaWrapper
 			isTarget={isTarget}
@@ -8,9 +8,10 @@ export default function TextArea({ isTarget, translation }) {
 			cols="50"
 			disabled={isTarget ? true : false}
 			placeholder={!isTarget ? 'Start Typing...' : ''}
-		>
-			{translation ? translation : ''}
-		</TextAreaWrapper>
+			defaultValue={translation ? translation : ''}
+            onChange={onChange && onChange}
+
+		/>
 	);
 }
 

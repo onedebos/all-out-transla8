@@ -1,12 +1,16 @@
 import TextArea from '../../components/TextArea/TextArea';
 import styled from 'styled-components';
+import { useTranslatorSlice } from '../../utils/slices/translator/useTranslatorSlice';
 
 export default function TextAreas() {
+
+    const {dispatchSetSrcTxt, translation} = useTranslatorSlice()
+
 	return (
 		<TextAreaContainer>
 			<TextAreasWrapper>
-				<TextArea isTarget={false} />
-				<TextArea isTarget={true} />
+				<TextArea isTarget={false} onChange={ (e)=> dispatchSetSrcTxt(e.target.value)}  />
+				<TextArea isTarget={true} translation={translation}  />
 			</TextAreasWrapper>
 			<HorizontalLine />
 		</TextAreaContainer>
