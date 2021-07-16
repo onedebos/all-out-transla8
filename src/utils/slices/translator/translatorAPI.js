@@ -1,9 +1,9 @@
 export default {
-	post: async (text, targetLang) => {
+	post: async (text, targetLangCode) => {
 		const data = {
-			auth_key: '5652c0b9-adcf-7f2e-f6a2-3a577f700dc9:fx',
+			auth_key: process.env.AUTH_KEY,
 			text: text,
-			target_lang: targetLang,
+			target_lang: targetLangCode,
 		};
 
 		const formBody = Object.keys(data)
@@ -22,6 +22,6 @@ export default {
 		}
 
 		const translations = await postData().then((data) => data);
-		return translations
+		return translations;
 	},
 };

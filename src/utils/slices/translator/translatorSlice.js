@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import  translatorAPI  from './translatorAPI';
+import translatorAPI from './translatorAPI';
 
 const translatorSlice = createSlice({
 	name: 'translator',
@@ -33,24 +33,23 @@ const translatorSlice = createSlice({
 	},
 });
 
-export const { setError, setLoading, setTranslation, setSrcText, setSrcLangCode, setTargetLangCode } = translatorSlice.actions;
+export const { setError, setLoading, setTranslation, setSrcText, setSrcLangCode, setTargetLangCode } =
+	translatorSlice.actions;
 
 export const translatorSelector = (state) => state.translator;
 
 export default translatorSlice.reducer;
 
 // Get translation
-export const getTranslation = () => {
+export const getTranslation = (srcText, targetLangCode) => {
 	return async (dispatch) => {
 		dispatch(setLoading(true));
 		dispatch(setError(null));
 
 		try {
-
-            const response =  await translatorAPI.post('Hello, world', 'DE')
-            console.log(response)
-
-
+			const response = await translatorAPI.post(srcText, targetLangCode);
+			setLoading(false);
+			dispatch(setTranslation(response.translations[0].text));
 		} catch (error) {
 			console.log(error);
 			console.log(error.message);
