@@ -1,4 +1,4 @@
-import TextArea from '../../components/TextArea/TextArea';
+import TextArea from '../../components/TextArea/';
 import styled from 'styled-components';
 import { useTranslatorSlice } from '../../utils/slices/translator/useTranslatorSlice';
 import Button from '../../components/Button';

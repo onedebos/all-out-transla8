@@ -22,7 +22,7 @@
 
      it('renders only shows English as an option in the source language dropdown', () => {
         render(<LanguageSelect langType={SRC_LANG} langOptions={srcLangOptions} />);
-        const langOptions = screen.getByTestId('lang-options');
+        const langOptions = screen.getByTestId(SRC_LANG);
 		expect(langOptions).toBeInTheDocument();
         expect(langOptions).toHaveTextContent('English');
         expect(langOptions).not.toHaveTextContent('Bulgarian');
@@ -30,7 +30,7 @@
 
     it('renders several languages as options in the target language dropdown', () => {
         render(<LanguageSelect langType={TRGT_LANG} langOptions={targetLangOptions} />);
-        const langOptions = screen.getByTestId('lang-options');
+        const langOptions = screen.getByTestId(TRGT_LANG);
 		expect(langOptions).toBeInTheDocument();
         expect(langOptions).toHaveTextContent('English');
         expect(langOptions).toHaveTextContent('Bulgarian');

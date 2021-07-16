@@ -5,162 +5,189 @@ exports[`<LanguageSelect /> matches snapshot 1`] = `
   className="LanguageSelect__SelectWrapper-sc-1umrqq7-0 iZfAxW"
 >
   <select
+    aria-label="select-language"
     className="LanguageSelect__LanguageSelectStyle-sc-1umrqq7-1 nRspY"
-    data-testid="lang-options"
-    name="Target Language"
+    data-testid="TargetLanguage"
+    name="TargetLanguage"
   >
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="BG"
     >
       Bulgarian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="CS"
     >
       Czech
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="DA"
     >
       Danish
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="DE"
     >
       German
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="EL"
     >
       Greek
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="EN-GB"
     >
       English (British)
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="EN-US"
     >
       English (American)
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="ES"
     >
       Spanish
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="ET"
     >
       Estonian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="FI"
     >
       Finnish
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="FR"
     >
       French
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="HU"
     >
       Hungarian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="IT"
     >
       Italian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="JA"
     >
       Japanese
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="LT"
     >
       Lithuanian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="LV"
     >
       Latvian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="NL"
     >
       Dutch
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="PL"
     >
       Polish
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="PT-PT"
     >
       Portuguese
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="PT-BR"
     >
       Portuguese (Brazilian)
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="RO"
     >
       Romanian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="RU"
     >
       Russian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="SK"
     >
       Slovak
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="SL"
     >
       Slovenian
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="SV"
     >
       Swedish
     </option>
     <option
       className="LanguageSelect__LangStyleOption-sc-1umrqq7-2"
+      data-testid="TargetLanguage-option"
       value="ZH"
     >
       Chinese

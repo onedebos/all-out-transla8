@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> matches snapshot 1`] = `
+<textarea
+  aria-label="text"
+  className="TextArea__TextAreaWrapper-sc-18mg7qw-0 cA-dkzx"
+  cols="50"
+  data-testid="SourceLanguage-textarea"
+  defaultValue=""
+  disabled={false}
+  placeholder="Start Typing..."
+  rows="4"
+/>
+`;

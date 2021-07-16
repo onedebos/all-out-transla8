@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export default function Error({ error }) {
-	return <ErrorStyles data-testid="error-msg">{error}</ErrorStyles>;
+	return <ErrorStyles aria-label="error-text" data-testid="error-msg">{error}</ErrorStyles>;
 }
 
 const ErrorStyles = styled.p`

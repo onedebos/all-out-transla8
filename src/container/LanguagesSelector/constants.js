@@ -32,6 +32,6 @@ export default {
 		{ langCode: 'ZH', lang: 'Chinese' },
 	],
 
-	SRC_LANG: 'Source Language',
-	TRGT_LANG: 'Target Language',
+	SRC_LANG: 'SourceLanguage',
+	TRGT_LANG: 'TargetLanguage',
 };

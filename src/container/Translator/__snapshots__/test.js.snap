@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Translator /> matches snapshot 1`] = `
+<div
+  className="Translator__TextAreaContainer-sc-86ai4h-2"
+>
+  <div
+    className="Translator__TextAreasWrapper-sc-86ai4h-0 dIkxSG"
+  >
+    <textarea
+      aria-label="text"
+      className="TextArea__TextAreaWrapper-sc-18mg7qw-0 cA-dkzx"
+      cols="50"
+      data-testid="SourceLanguage-textarea"
+      defaultValue=""
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Start Typing..."
+      rows="4"
+    />
+    <textarea
+      aria-label="text"
+      className="TextArea__TextAreaWrapper-sc-18mg7qw-0 eMJKzA"
+      cols="50"
+      data-testid="TargetLanguage-textarea"
+      defaultValue=""
+      disabled={true}
+      placeholder=""
+      rows="4"
+    />
+  </div>
+  <p
+    aria-label="error-text"
+    className="Error__ErrorStyles-sc-nms42m-0 bMSNJU"
+    data-testid="error-msg"
+  />
+  <div
+    className="Translator__HorizontalLine-sc-86ai4h-1 hLpfWx"
+  />
+  <button
+    aria-label="translate-button"
+    className="Button__ButtonStyles-sc-17n8azk-0 kbnOiR"
+    data-testid="translate"
+    loading={0}
+    onClick={[Function]}
+  >
+    Translate
+  </button>
+</div>
+`;
