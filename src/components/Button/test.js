@@ -27,11 +27,6 @@ describe('<Button />', () => {
 		expect(btnElement).toHaveTextContent('Translate');
 	});
 
-	it('renders the correct text when loading is true', () => {
-		render(<Button loading={true} />);
-		const btnElement = screen.getByTestId('translate');
-		expect(btnElement).toHaveTextContent('Translating...');
-	});
 
 	it('has a background color of #ddd by default', () => {
 		render(<Button loading={false} />);

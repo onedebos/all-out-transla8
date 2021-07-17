@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export default function Button({ loading = false, onClick }) {
 	return (
 		<ButtonStyles aria-label="translate-button" onClick={onClick} loading={loading ? 1 : 0} data-testid="translate">
-			{loading ? 'Translating....' : 'Translate'}
+			Translate
 		</ButtonStyles>
 	);
 }
