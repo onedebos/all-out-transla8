@@ -2,7 +2,8 @@
 
 exports[`<LanguagesSelector /> matches snapshot 1`] = `
 <div
-  className="LanguagesSelector__Wrapper-sc-1ww3ozx-0 hvFoEs"
+  className="LanguagesSelector__Wrapper-sc-1ww3ozx-0 ioRKPv"
+  data-testid="languages-wrapper"
 >
   <div
     className="LanguageSelect__SelectWrapper-sc-1umrqq7-0 iZfAxW"
@@ -24,6 +25,9 @@ exports[`<LanguagesSelector /> matches snapshot 1`] = `
   </div>
   <div
     className="LanguagesSelector__SvgWrapper-sc-1ww3ozx-1 FPuDG"
+    data-testid="arrow-btn"
+    onClick={[Function]}
+    role="button"
   >
     <svg
       focusable="false"

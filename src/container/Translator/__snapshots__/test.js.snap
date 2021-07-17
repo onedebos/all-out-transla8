@@ -5,7 +5,7 @@ exports[`<Translator /> matches snapshot 1`] = `
   className="Translator__TextAreaContainer-sc-86ai4h-2"
 >
   <div
-    className="Translator__TextAreasWrapper-sc-86ai4h-0 dIkxSG"
+    className="Translator__TextAreasWrapper-sc-86ai4h-0 DmMGi"
   >
     <textarea
       aria-label="text"
@@ -31,7 +31,7 @@ exports[`<Translator /> matches snapshot 1`] = `
   </div>
   <p
     aria-label="error-text"
-    className="Error__ErrorStyles-sc-nms42m-0 bMSNJU"
+    className="Error__ErrorStyles-sc-nms42m-0 cwEody"
     data-testid="error-msg"
   />
   <div

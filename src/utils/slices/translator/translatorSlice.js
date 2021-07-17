@@ -10,6 +10,7 @@ const translatorSlice = createSlice({
 		srcText: '',
 		srcLangCode: '',
 		targetLangCode: 'BG',
+		swapTargets: false,
 	},
 	reducers: {
 		setError: (state, { payload }) => {
@@ -30,10 +31,13 @@ const translatorSlice = createSlice({
 		setTargetLangCode: (state, { payload }) => {
 			state.targetLangCode = payload;
 		},
+		setSwapTargets: (state, { payload }) => {
+			state.swapTargets = payload;
+		},
 	},
 });
 
-export const { setError, setLoading, setTranslation, setSrcText, setSrcLangCode, setTargetLangCode } =
+export const { setError, setLoading, setTranslation, setSrcText, setSrcLangCode, setTargetLangCode, setSwapTargets } =
 	translatorSlice.actions;
 
 export const translatorSelector = (state) => state.translator;

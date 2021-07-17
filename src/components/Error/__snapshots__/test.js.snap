@@ -3,7 +3,7 @@
 exports[`<Error /> matches snapshot 1`] = `
 <p
   aria-label="error-text"
-  className="Error__ErrorStyles-sc-nms42m-0 bMSNJU"
+  className="Error__ErrorStyles-sc-nms42m-0 cwEody"
   data-testid="error-msg"
 >
   Enter a word to translate...

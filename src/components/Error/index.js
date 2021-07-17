@@ -5,6 +5,6 @@ export default function Error({ error }) {
 }
 
 const ErrorStyles = styled.p`
-	color: #ddd;
+	color: #827d7d;
 	margin-top: 10px;
 `;

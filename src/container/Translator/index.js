@@ -6,7 +6,7 @@ import Error from '../../components/Error';
 import constants from './constants';
 
 export default function Translator() {
-	const { dispatchSetSrcTxt, srcText, translation, dispatchGetTranslation, targetLangCode, error, dispatchSetError,loading } =
+	const { dispatchSetSrcTxt, srcText, translation, dispatchGetTranslation, targetLangCode, error, dispatchSetError,loading, swapTargets } =
 		useTranslatorSlice();
 	const { NO_SRC_TEXT_ERR, NO_TRGT_LANG_ERR } = constants;
 
@@ -19,7 +19,7 @@ export default function Translator() {
 
 	return (
 		<TextAreaContainer>
-			<TextAreasWrapper>
+			<TextAreasWrapper swapTargets={swapTargets}>
 				<TextArea isTarget={false} onChange={(e) => dispatchSetSrcTxt(e.target.value)} />
 				<TextArea isTarget={true} translation={translation} />
 			</TextAreasWrapper>
@@ -33,6 +33,8 @@ export default function Translator() {
 const TextAreasWrapper = styled.div`
 	display: flex;
 	position: relative;
+	flex-direction: ${(props) => (props.swapTargets ? 'row-reverse' : 'row')};
+	justify-content: ${(props) => (props.swapTargets ? 'flex-end' : 'normal')};
 `;
 
 const HorizontalLine = styled.div`

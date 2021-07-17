@@ -50,6 +50,23 @@ describe('<LanguagesSelector />', () => {
 		expect(options[0]).toHaveValue('EN');
 	});
 
+	it('swaps the positions of the source and target dropdowns when the user clicks on the arrows', () => {
+		const { getByTestId } = render(
+			<Provider store={store}>
+				<LanguagesSelector />
+			</Provider>
+		);
+		const arrowBtn = getByTestId('arrow-btn');
+		fireEvent.click(arrowBtn);
+
+		const languagesWrapper = getByTestId('languages-wrapper');
+		expect(languagesWrapper).toHaveStyle({
+			display: 'flex',
+			'flex-direction': 'row-reverse',
+			'justify-content': 'flex-end',
+		});
+	});
+
 	it('matches snapshot', () => {
 		const tree = renderer
 			.create(

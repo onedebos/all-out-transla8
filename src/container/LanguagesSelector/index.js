@@ -6,12 +6,12 @@ import { useTranslatorSlice } from '../../utils/slices/translator/useTranslatorS
 export default function LanguagesSelector() {
 	const { srcLangOptions, targetLangOptions, SRC_LANG, TRGT_LANG } = constants;
 
-	const { dispatchSetTrgtLangCode } = useTranslatorSlice();
+	const { dispatchSetTrgtLangCode, dispatchSetSwapTargets, swapTargets } = useTranslatorSlice();
 
 	return (
-		<Wrapper>
+		<Wrapper swapTargets={swapTargets} data-testid="languages-wrapper">
 			<LanguageSelect langType={SRC_LANG} langOptions={srcLangOptions} />
-			<SvgWrapper>
+			<SvgWrapper role="button" onClick={dispatchSetSwapTargets} data-testid="arrow-btn">
 				<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"></path>
 				</svg>
@@ -27,6 +27,8 @@ export default function LanguagesSelector() {
 
 const Wrapper = styled.div`
 	display: flex;
+	flex-direction: ${(props) => (props.swapTargets ? 'row-reverse' : 'row')};
+	justify-content: ${(props) => (props.swapTargets ? 'flex-end' : 'normal')};
 `;
 
 const SvgWrapper = styled.div`
