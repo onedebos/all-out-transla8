@@ -16,7 +16,7 @@ afterEach(() => {
 describe('<LanguagesSelector />', () => {
 	const { SRC_LANG, TRGT_LANG } = constants;
 
-	it('renders the LanguageSelect component successfully without crashing', () => {
+	it('renders the LanguagesSelector component successfully without crashing', () => {
 		render(
 			<Provider store={store}>
 				<LanguagesSelector />

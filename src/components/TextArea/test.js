@@ -12,7 +12,7 @@
  
  describe('<TextArea />', () => {
 
-     it('renders the Button component successfully without crashing', () => {
+     it('renders the TextArea component successfully without crashing', () => {
          render(<TextArea isTarget={false} />);
      });
 

@@ -15,7 +15,7 @@
 
     const {NO_SRC_TEXT_ERR} = constants
 
-     it('renders the Button component successfully without crashing', () => {
+     it('renders the Error component successfully without crashing', () => {
          render(<Error error="" />);
      });
 
