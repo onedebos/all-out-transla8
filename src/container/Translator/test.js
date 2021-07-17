@@ -7,6 +7,7 @@ import store from '../../utils/slices/store';
 import '@testing-library/jest-dom';
 import renderer from 'react-test-renderer';
 import Translator from './';
+import LanguagesSelector from '../LanguagesSelector';
 import constants from '../LanguagesSelector/constants';
 
 afterEach(() => {
@@ -33,6 +34,24 @@ describe('<Translator />', () => {
 		const textAreaInput = getByTestId(SRC_LANG + '-textarea');
 		fireEvent.change(textAreaInput, { target: { value: 'Hello, World!' } });
 		expect(textAreaInput.value).toBe('Hello, World!');
+	});
+
+	it('swaps the positions of the source and target textareas when the user clicks on the arrows button', () => {
+		const { getByTestId } = render(
+			<Provider store={store}>
+				<LanguagesSelector />
+				<Translator />
+			</Provider>
+		);
+		const arrowBtn = getByTestId('arrow-btn');
+		fireEvent.click(arrowBtn);
+
+		const textAreasWrapper = getByTestId('textareas-wrapper');
+		expect(textAreasWrapper).toHaveStyle({
+			display: 'flex',
+			'flex-direction': 'row-reverse',
+			'justify-content': 'flex-end',
+		});
 	});
 
 	it('matches snapshot', () => {

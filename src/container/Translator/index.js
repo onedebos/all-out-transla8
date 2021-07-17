@@ -19,7 +19,7 @@ export default function Translator() {
 
 	return (
 		<TextAreaContainer>
-			<TextAreasWrapper swapTargets={swapTargets}>
+			<TextAreasWrapper swapTargets={swapTargets} data-testid="textareas-wrapper">
 				<TextArea isTarget={false} onChange={(e) => dispatchSetSrcTxt(e.target.value)} />
 				<TextArea isTarget={true} translation={translation} />
 			</TextAreasWrapper>

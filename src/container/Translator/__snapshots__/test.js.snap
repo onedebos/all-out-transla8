@@ -5,7 +5,8 @@ exports[`<Translator /> matches snapshot 1`] = `
   className="Translator__TextAreaContainer-sc-86ai4h-2"
 >
   <div
-    className="Translator__TextAreasWrapper-sc-86ai4h-0 DmMGi"
+    className="Translator__TextAreasWrapper-sc-86ai4h-0 EbXiZ"
+    data-testid="textareas-wrapper"
   >
     <textarea
       aria-label="text"
